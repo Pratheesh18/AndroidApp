@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         btn_cal = findViewById(R.id.btn_cal);
         textView = findViewById(R.id.textView);
     }
+    //ch
 
     @Override
     protected void onResume() {

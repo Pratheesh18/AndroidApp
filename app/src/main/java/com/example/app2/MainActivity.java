@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void calculateAnswer(){
+    public void calculateAnswer(){ //calculate answer method
         Calculations cal1 = new Calculations();
        String value = et_temp.getText().toString();
        if(TextUtils.isEmpty(value)){
